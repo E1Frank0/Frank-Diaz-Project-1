@@ -1,0 +1,71 @@
+body {
+    background-image: url(images/pixel_background.jpg);
+    text-align: center;
+}
+
+@font-face {
+    font-family: arcadeclassic;
+    src: url(fonts/arcadeclassic/arcadeclassic.ttf);
+}
+
+@font-face {
+    font-family: droidsansmono;
+    src: url(fonts/droidsansmono/droidsansmono.ttf);
+}
+
+#main {
+    background-color: #FFFFFF;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-color: cyan;
+    height: 2800px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: arcadeclassic;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 35px;
+    text-indent: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: arcadeclassic;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 25px;
+    text-indent: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+p { 
+    font-size: 15px;
+    font-family: droidsansmono, monospace;
+    text-align: center;
+    font-weight: normal;
+    line-height: 20px;
+    color: black;
+    padding: 3px 10px 3px 10px;
+}
+
+ol {
+    font-family: droidsansmono, monospace;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0px;
+    padding: 50px 100px 50px 100px;
+}
